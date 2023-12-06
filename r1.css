@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3Zj_XBHw1ALSEZNKMfj1T1KOU711d3rgTA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+}
+p, ul, address{
+    text-align: center;
+    
+    font-size: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}

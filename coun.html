@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cous.css">
+    <title>Mental Health Counseling</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mental Health Counseling</h1>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <p>Welcome to our mental health counseling service. We are here to support you.</p>
+
+            <form id="counselingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="message">Additional Information:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mental Health Counseling</p>
+        </div>
+    </footer>
+
+    <script src="coujs.js"></script>
+</body>
+</html>
